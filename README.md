@@ -10,7 +10,10 @@ go get github.com/garyburd/redigo/redis
 go get gopkg.in/alecthomas/kingpin.v2
 
 命令行使用格式说明。
+
 redis-copy -H 192.168.1.111 -P 6379 -A 123456 -D 4 -h 127.0.0.1 -p 6379 -a 123456 -d 4 -m *
+
+
 
 
 --help
