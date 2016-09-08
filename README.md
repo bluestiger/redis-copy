@@ -1,7 +1,7 @@
 # redis-copy
 redis复制工具
 
-目前仅支持string、set、hash、list 四中类型的复制，并自动识别！（复制的效率不高，后续会考虑添加并发方式。）
+目前仅支持string、set、hash、list 四中类型的复制，并自动识别！
 
 编译时需要第三方的库：
 
