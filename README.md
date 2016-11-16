@@ -1,20 +1,19 @@
-# redis-copy
-redis复制工具
+## redis-copy
 
-目前仅支持string、set、hash、list 四中类型的复制，并自动识别！
+#### redis复制工具
 
-编译时需要第三方的库：
+**目前仅支持string、set、hash、list 四中类型的复制，并自动识别！**
 
-go get github.com/garyburd/redigo/redis
+> 编译时需要第三方的库：
 
-go get gopkg.in/alecthomas/kingpin.v2
+- go get github.com/garyburd/redigo/redis
+
+- go get gopkg.in/alecthomas/kingpin.v2
 
 命令行使用格式说明。
 
+``` shell
 redis-copy -H 192.168.1.111 -P 6379 -A 123456 -D 4 -h 127.0.0.1 -p 6379 -a 123456 -d 4 -m *
-
-
-
 
 --help
 
@@ -36,4 +35,4 @@ redis-copy -H 192.168.1.111 -P 6379 -A 123456 -D 4 -h 127.0.0.1 -p 6379 -a 12345
 -d, --dstdbs=0        Use -d <目标 数据库>
 
 -m, --mcp=""          Use -m <要复制键值如：test*>
-
+```
