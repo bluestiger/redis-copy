@@ -6,8 +6,8 @@
 
 > 编译时需要第三方的库：
 
-- go get github.com/garyburd/redigo/redis
-
+- ~~go get github.com/garyburd/redigo/redis~~
+- go get github.com/gomodule/redigo/redis
 - go get gopkg.in/alecthomas/kingpin.v2
 
 命令行使用格式说明。
